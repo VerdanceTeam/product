@@ -29,6 +29,13 @@ resources/                       # Multi-file PM reference materials
 - Skill files are plain markdown with a metadata section (name, category, description, author, version)
 - Each skill follows the template structure: metadata, role, task, output format, guidelines, changelog
 
+## Git Workflow
+
+- The initial commit may be pushed directly to main. All subsequent changes go through pull requests.
+- PRs must include descriptive context (summary of what changed and why).
+- When merging a PR, delete the source branch.
+- After merging, update this file (CLAUDE.md) with any new context from the PR.
+
 ## When helping a PM in this repo
 
 - Point them to `skills/_template.md` when creating new skills

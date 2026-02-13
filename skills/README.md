@@ -4,7 +4,7 @@ Browse available PM skills below. Each skill is a portable AI prompt template th
 
 To create a new skill, see the [template](_template.md).
 
-> **Note:** These categories are likely to change as our PM practice evolves. Skills may be recategorized, and new categories may be added or existing ones merged over time.
+> **Note:** These categories are a first cut and will be revisited as skills are added and our PM practice evolves. Expect categories to be renamed, merged, or restructured over time.
 
 ## Skills by Category
 
@@ -23,7 +23,7 @@ To create a new skill, see the [template](_template.md).
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |
 
-### Delivery
+### Tactical Execution
 | Skill | Description | Usage |
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |
@@ -38,7 +38,7 @@ To create a new skill, see the [template](_template.md).
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |
 
-### Analytics
+### Measurement
 | Skill | Description | Usage |
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |

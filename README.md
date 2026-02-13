@@ -38,17 +38,17 @@ Claude Code reads the skill prompt and applies it to your input. See [.claude/co
 
 ## Skill Categories
 
-> **Note:** These categories are likely to change as our PM practice evolves.
+> **Note:** These categories are a first cut and will be revisited as skills are added and our PM practice evolves. Expect categories to be renamed, merged, or restructured over time.
 
 | Category | Description |
 |---|---|
 | [discovery/](skills/discovery/) | Understanding problems, technical feasibility, opportunity sizing |
 | [strategy/](skills/strategy/) | Vision, roadmaps, positioning, competitive analysis |
 | [product-definition/](skills/product-definition/) | PRDs, specs, user stories, acceptance criteria |
-| [delivery/](skills/delivery/) | Implementation, sprint ceremonies, planning, retros |
+| [tactical-execution/](skills/tactical-execution/) | Sprint ceremonies, planning, retros, shipping |
 | [service-design/](skills/service-design/) | User research, synthesis, insights, journey mapping |
 | [stakeholder-management/](skills/stakeholder-management/) | Communication, alignment, status updates |
-| [analytics/](skills/analytics/) | Metrics, experiments, data interpretation |
+| [measurement/](skills/measurement/) | Metrics, validation, experimentation, measuring product effectiveness |
 | [hiring/](skills/hiring/) | Interview questions, scorecards |
 | [meta/](skills/meta/) | Using this repo effectively, AI growth, prompt engineering |
 | [uncategorized/](skills/uncategorized/) | Skills not yet assigned to a category |

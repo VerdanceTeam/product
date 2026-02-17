@@ -80,4 +80,4 @@ How to move from issue to skill.
 
 Then ask the user for feedback before taking any action.
 
-> **Note:** The canonical source for this skill is `skills/meta/eureka.md`. Update that file when evolving the core logic. See also: `/elementary` for reviewing context or the current conversation.
+> **Note:** The canonical source for this skill is `skills/meta/eureka.md`. Update that file when evolving the core logic. See also: `/elementary` for scanning context or the current conversation to surface multiple lessons.

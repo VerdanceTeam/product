@@ -51,7 +51,7 @@ To create a new skill, see the [template](_template.md).
 ### Meta
 | Skill | Description | Usage |
 |---|---|---|
-| _No skills yet_ | [Create one](../skills/_template.md) | — |
+| [eureka](meta/eureka.md) | Capture a lesson in the moment or scan context for lessons, then route to a skill draft or GitHub issue | `/eureka [lesson]` or `/elementary [context]` |
 
 ### Uncategorized
 | Skill | Description | Usage |

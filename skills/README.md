@@ -4,6 +4,8 @@ Browse available PM skills below. Each skill is a portable AI prompt template th
 
 To create a new skill, see the [template](_template.md).
 
+> **Note:** These categories are a first cut and will be revisited as skills are added and our PM practice evolves. Expect categories to be renamed, merged, or restructured over time.
+
 ## Skills by Category
 
 ### Discovery
@@ -16,17 +18,17 @@ To create a new skill, see the [template](_template.md).
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |
 
-### Requirements
+### Product Definition
 | Skill | Description | Usage |
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |
 
-### Agile
+### Tactical Execution
 | Skill | Description | Usage |
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |
 
-### Research
+### Service Design
 | Skill | Description | Usage |
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |
@@ -36,12 +38,22 @@ To create a new skill, see the [template](_template.md).
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |
 
-### Analytics
+### Measurement
 | Skill | Description | Usage |
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |
 
 ### Hiring
+| Skill | Description | Usage |
+|---|---|---|
+| _No skills yet_ | [Create one](../skills/_template.md) | — |
+
+### Meta
+| Skill | Description | Usage |
+|---|---|---|
+| _No skills yet_ | [Create one](../skills/_template.md) | — |
+
+### Uncategorized
 | Skill | Description | Usage |
 |---|---|---|
 | _No skills yet_ | [Create one](../skills/_template.md) | — |

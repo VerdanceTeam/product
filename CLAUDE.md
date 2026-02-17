@@ -9,12 +9,14 @@ skills/                          # LLM-agnostic prompt templates
   _template.md                   # Template for creating new skills
   discovery/                     # Problems, feasibility, opportunity sizing
   strategy/                      # Vision, roadmaps, positioning
-  requirements/                  # PRDs, specs, user stories
-  agile/                         # Ceremonies, sprint planning, retros
-  research/                      # User research, synthesis, insights
+  product-definition/            # PRDs, specs, user stories
+  tactical-execution/            # Sprint ceremonies, planning, retros, shipping
+  service-design/                # User research, synthesis, insights, journey mapping
   stakeholder-management/        # Communication, alignment, updates
-  analytics/                     # Metrics, experiments, data interpretation
+  measurement/                   # Metrics, validation, experimentation, product effectiveness
   hiring/                        # Interview questions, scorecards
+  meta/                          # Using this repo, AI growth, prompt engineering
+  uncategorized/                 # Skills not yet assigned to a category
 resources/                       # Multi-file PM reference materials
   career-ladder/                 # PM levels, competencies, expectations
   hiring-guide/                  # Interview process, questions, scorecards
@@ -28,6 +30,7 @@ resources/                       # Multi-file PM reference materials
 - Claude Code adapters in `.claude/commands/` map `$ARGUMENTS` to `{{INPUT}}`
 - Skill files are plain markdown with a metadata section (name, category, description, author, version)
 - Each skill follows the template structure: metadata, role, task, output format, guidelines, changelog
+- Categories are a first cut and will be revisited as skills are added and our PM practice evolves
 
 ## Git Workflow
 

@@ -16,11 +16,16 @@ skills/                          # LLM-agnostic prompt templates
   measurement/                   # Metrics, validation, experimentation, product effectiveness
   hiring/                        # Interview questions, scorecards
   meta/                          # Using this repo, AI growth, prompt engineering
+    eureka.md                    # Capture in-the-moment lesson → skill or GitHub issue
+    elementary.md                # Scan context → reflections file → promote to Eureka
   uncategorized/                 # Skills not yet assigned to a category
 resources/                       # Multi-file PM reference materials
   career-ladder/                 # PM levels, competencies, expectations
   hiring-guide/                  # Interview process, questions, scorecards
+reflections/                     # Output files from /elementary sessions (YYYY-MM-DD-elementary.md)
 .claude/commands/                # Claude Code slash-command adapters
+  eureka.md                      # /eureka — in-the-moment lesson capture
+  elementary.md                  # /elementary — context scan with file output and promotion flow
 ```
 
 ## Conventions
@@ -38,6 +43,15 @@ resources/                       # Multi-file PM reference materials
 - PRs must include descriptive context (summary of what changed and why).
 - When merging a PR, delete the source branch.
 - After merging, update this file (CLAUDE.md) with any new context from the PR.
+
+## Meta Skills
+
+Two skills exist for capturing and developing PM/AI learnings:
+
+- **`/eureka [lesson]`** — in-the-moment capture. Takes an explicit insight, confirms it, then decides skill vs GitHub issue and drafts accordingly.
+- **`/elementary [context]`** — deliberate review. Scans pasted context or the current conversation, writes all candidate lessons to `reflections/YYYY-MM-DD-elementary.md`, asks the user which to promote, updates the file (EUREKA / Passed), then cascades promoted lessons into the eureka flow.
+
+These two skills cascade: elementary delegates the skill/issue decision and drafting to the eureka skill (`skills/meta/eureka.md` Steps 3–4).
 
 ## When helping a PM in this repo
 

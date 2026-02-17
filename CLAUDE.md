@@ -41,6 +41,7 @@ reflections/                     # Output files from /elementary sessions (YYYY-
 
 - The initial commit may be pushed directly to main. All subsequent changes go through pull requests.
 - PRs must include descriptive context (summary of what changed and why).
+- When pushing additional commits to a PR branch that change its scope, update the PR description to reflect what will actually be merged. If the description cannot be fully rewritten, add a comment summarizing what changed and why.
 - When merging a PR, delete the source branch.
 - After merging, update this file (CLAUDE.md) with any new context from the PR.
 

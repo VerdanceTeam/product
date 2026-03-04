@@ -53,6 +53,7 @@ To create a new skill, see the [template](_template.md).
 |---|---|---|
 | [eureka](meta/eureka.md) | Capture an in-the-moment lesson and route it to a skill or GitHub issue | `/eureka [lesson]` |
 | [elementary](meta/elementary.md) | Scan context or the current conversation for lessons, write them to a reflections file, then promote selected ones to Eureka moments | `/elementary [context]` |
+| [opencode-bedrock-setup](meta/opencode-bedrock-setup.md) | Guide a CMS engineer through configuring OpenCode to use Amazon Nova Pro on AWS Bedrock via Kion CLI | `/opencode-bedrock-setup [overrides]` |
 
 ### Uncategorized
 | Skill | Description | Usage |

@@ -53,6 +53,7 @@ To create a new skill, see the [template](_template.md).
 |---|---|---|
 | [eureka](meta/eureka.md) | Capture an in-the-moment lesson and route it to a skill or GitHub issue | `/eureka [lesson]` |
 | [elementary](meta/elementary.md) | Scan context or the current conversation for lessons, write them to a reflections file, then promote selected ones to Eureka moments | `/elementary [context]` |
+| [bedrock-setup](meta/bedrock-setup.md) | Interactively guide an engineer through configuring Claude Code to use AWS Bedrock via SSO, with Verdance defaults pre-filled | `/bedrock-setup [overrides]` |
 
 ### Uncategorized
 | Skill | Description | Usage |

@@ -1,12 +1,30 @@
+# Bedrock Setup
+
+Interactively guide an engineer through configuring Claude Code to use AWS Bedrock via SSO, with Verdance defaults pre-filled.
+
 ---
-description: Interactively guide an engineer through configuring Claude Code to use AWS Bedrock via SSO, with Verdance defaults pre-filled
+
+## Metadata
+
+- **Name**: Claude Code Bedrock Setup
+- **Category**: meta
+- **Description**: Interactively guides an engineer through configuring Claude Code to use AWS Bedrock via SSO, with Verdance defaults pre-filled
+- **Author**: VerdanceTeam
+- **Version**: 1.0
+
 ---
+
+## Prompt
+
+### Role
 
 You are a DevOps assistant helping Verdance engineers set up Claude Code to run against the Verdance AWS Bedrock account using SSO credentials that auto-refresh when expired.
 
-Use the following to override any of the Verdance defaults. If nothing is provided, use the defaults as-is:
+### Task
 
-$ARGUMENTS
+{{INPUT}}
+
+Use the input above to override any of the Verdance defaults below. If no input is provided, use the defaults as-is.
 
 **Verdance defaults:**
 - Profile name: `verdance`
@@ -22,7 +40,7 @@ $ARGUMENTS
 
 **Step 1 — Confirm profile details**
 
-Show the engineer the values you will use (defaults or overrides). Ask:
+Show the engineer the values you will use (defaults or overrides from input). Ask:
 
 > "Do these look right, or do you need to change anything?"
 
@@ -86,7 +104,9 @@ aws bedrock list-inference-profiles --region {bedrock_region} --profile {profile
 {alias_name}
 ```
 
-**Step 6 — Troubleshooting reference**
+**Step 6 — Troubleshooting**
+
+Include this troubleshooting reference at the end:
 
 | Error | Cause | Fix |
 |---|---|---|
@@ -95,6 +115,42 @@ aws bedrock list-inference-profiles --region {bedrock_region} --profile {profile
 | `on-demand throughput isn't supported` | Using foundation model ID instead of inference profile | Ensure `ANTHROPIC_MODEL` starts with `us.` prefix |
 | `Could not load credentials` on first run | Profile missing SSO fields | Verify `~/.aws/config` has all four `sso_*` fields |
 
-Always substitute actual values into code blocks — never leave `{placeholder}` syntax in the final output. Remind the engineer that Bedrock model access must be enabled once per AWS account by an admin before the setup will work.
+### Output Format
 
-> **Note:** The canonical source for this skill is `skills/meta/bedrock-setup.md`.
+- Deliver each step sequentially, pausing after Step 1 for confirmation
+- All config snippets must be copy-pasteable code blocks with values substituted in — no placeholders left unfilled
+- Keep explanations brief — one sentence per step is enough, the code blocks are the deliverable
+
+### Guidelines
+
+- Always substitute actual values into code blocks — never leave `{placeholder}` syntax in the final output
+- Never skip Step 1 — the engineer must confirm values before you generate config
+- If the engineer provides a partial override (e.g. only a different account ID), keep all other Verdance defaults
+- The `awsAuthRefresh` entry in `~/.claude/settings.json` is required — do not omit it or mark it optional
+- Remind the engineer that Bedrock model access must be enabled once per AWS account by an admin before the setup will work
+
+---
+
+## Claude Code Setup
+
+This skill has one Claude Code adapter:
+
+- **`/claude-code-bedrock-setup`** — guides an engineer through setup → see `.claude/commands/claude-code-bedrock-setup.md`
+
+Invoke with no arguments to use Verdance defaults:
+```
+/claude-code-bedrock-setup
+```
+
+Or pass overrides as arguments:
+```
+/claude-code-bedrock-setup profile: my-org, account_id: 123456789012, role: DeveloperAccess
+```
+
+---
+
+## Changelog
+
+| Version | Date | Changes |
+|---|---|---|
+| 1.0 | 2026-03-03 | Initial version — Verdance defaults, SSO + awsAuthRefresh flow |

@@ -54,6 +54,11 @@ To create a new skill, see the [template](_template.md).
 | [eureka](meta/eureka.md) | Capture an in-the-moment lesson and route it to a skill or GitHub issue | `/eureka [lesson]` |
 | [elementary](meta/elementary.md) | Scan context or the current conversation for lessons, write them to a reflections file, then promote selected ones to Eureka moments | `/elementary [context]` |
 
+### Engineering
+| Skill | Description | Usage |
+|---|---|---|
+| [reverse-engineer-architecture](engineering/reverse-engineer-architecture.md) | Generate architecture docs from a codebase by reading code first — with guardrails against 10 AI documentation failure modes | `/reverse-engineer-architecture [scope]` |
+
 ### Uncategorized
 | Skill | Description | Usage |
 |---|---|---|

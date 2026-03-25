@@ -58,6 +58,8 @@ To create a new skill, see the [template](_template.md).
 | Skill | Description | Usage |
 |---|---|---|
 | [reverse-engineer-architecture](engineering/reverse-engineer-architecture.md) | Generate architecture docs from a codebase by reading code first — with guardrails against 10 AI documentation failure modes | `/reverse-engineer-architecture [scope]` |
+| [validate-architecture](engineering/validate-architecture.md) | Validate existing architecture docs against source code using parallel ground truth extraction, hook attribution greps, diagram verification, and negative existence checks | `/validate-architecture [focus]` |
+| [reverse-engineer-specifications](engineering/reverse-engineer-specifications.md) | Generate Gherkin behavioral specs from a codebase by tracing routes, role checks, status flows, and data files — organized around the actual navigation structure | `/reverse-engineer-specifications [scope]` |
 
 ### Uncategorized
 | Skill | Description | Usage |

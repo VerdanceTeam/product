@@ -26,7 +26,7 @@ To create a new skill, see the [template](_template.md).
 ### Tactical Execution
 | Skill | Description | Usage |
 |---|---|---|
-| _No skills yet_ | [Create one](../skills/_template.md) | — |
+| [sync-docs](tactical-execution/sync-docs.md) | Audit code changes and update user documentation accordingly | `/sync-docs` |
 
 ### Service Design
 | Skill | Description | Usage |

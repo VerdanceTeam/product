@@ -1,6 +1,6 @@
 # PM Skills Repository
 
-A repository for product management professionals containing AI prompt skills. Hosted as a private repo under the VerdanceTeam organization.
+A repository for product management professionals containing AI prompt skills. Hosted under the VerdanceTeam organization.
 
 ## Structure
 

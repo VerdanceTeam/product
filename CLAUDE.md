@@ -1,6 +1,6 @@
-# PM Skills & Resources Repository
+# PM Skills Repository
 
-A repository for product management professionals containing AI prompt skills and PM reference resources. Hosted as a private repo under the VerdanceTeam organization.
+A repository for product management professionals containing AI prompt skills. Hosted under the VerdanceTeam organization.
 
 ## Structure
 
@@ -19,9 +19,6 @@ skills/                          # LLM-agnostic prompt templates
     eureka.md                    # Capture in-the-moment lesson → skill or GitHub issue
     elementary.md                # Scan context → reflections file → promote to Eureka
   uncategorized/                 # Skills not yet assigned to a category
-resources/                       # Multi-file PM reference materials
-  career-ladder/                 # PM levels, competencies, expectations
-  hiring-guide/                  # Interview process, questions, scorecards
 reflections/                     # Output files from /elementary sessions (YYYY-MM-DD-elementary.md)
 .claude/commands/                # Claude Code slash-command adapters
   eureka.md                      # /eureka — in-the-moment lesson capture
@@ -60,5 +57,4 @@ These two skills cascade: elementary delegates the skill/issue decision and draf
 - Ensure new skills follow the template structure
 - When creating a Claude Code adapter, place it in `.claude/commands/` and map `{{INPUT}}` to `$ARGUMENTS`
 - Update `skills/README.md` catalog when adding or removing skills
-- Update `resources/README.md` index when adding new resources
 - Skills should be categorized into one of the existing category folders

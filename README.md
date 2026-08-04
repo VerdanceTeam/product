@@ -1,6 +1,6 @@
-# PM Skills & Resources
+# PM Skills
 
-A repository of skills, frameworks, and resources for product management professionals. Skills are portable AI prompt templates that work with any LLM — Claude, ChatGPT, Copilot, Gemini, and others.
+A repository of skills and frameworks for product management professionals. Skills are portable AI prompt templates that work with any LLM — Claude, ChatGPT, Copilot, Gemini, and others.
 
 ## Quick Start
 
@@ -13,7 +13,6 @@ A repository of skills, frameworks, and resources for product management profess
 
 ```
 skills/           AI prompt templates organized by PM practice area
-resources/        Reference materials (career ladder, hiring guide, etc.)
 .claude/commands/ Claude Code slash-command adapters
 ```
 
@@ -54,17 +53,6 @@ Claude Code reads the skill prompt and applies it to your input. See [.claude/co
 | [uncategorized/](skills/uncategorized/) | Skills not yet assigned to a category |
 
 See the full [Skill Catalog](skills/README.md) for individual skill listings.
-
-## Resources
-
-Reference materials for PM practice:
-
-| Resource | Description |
-|---|---|
-| [Career Ladder](resources/career-ladder/) | PM levels, competencies, and expectations |
-| [Hiring Guide](resources/hiring-guide/) | Interview process, questions, and scorecards |
-
-See the [Resources Index](resources/README.md) for details.
 
 ## Creating a New Skill
 

@@ -54,6 +54,14 @@ To create a new skill, see the [template](_template.md).
 | [eureka](meta/eureka.md) | Capture an in-the-moment lesson and route it to a skill or GitHub issue | `/eureka [lesson]` |
 | [elementary](meta/elementary.md) | Scan context or the current conversation for lessons, write them to a reflections file, then promote selected ones to Eureka moments | `/elementary [context]` |
 | [claude-code-bedrock-setup](meta/claude-code-bedrock-setup.md) | Interactively guide an engineer through configuring Claude Code to use AWS Bedrock via SSO, with Verdance defaults pre-filled | `/claude-code-bedrock-setup [overrides]` |
+| [opencode-bedrock-setup](meta/opencode-bedrock-setup.md) | Guide a CMS engineer through configuring OpenCode to use Amazon Nova Pro on AWS Bedrock via Kion CLI | `/opencode-bedrock-setup [overrides]` |
+
+### Engineering
+| Skill | Description | Usage |
+|---|---|---|
+| [reverse-engineer-architecture](engineering/reverse-engineer-architecture.md) | Generate architecture docs from a codebase by reading code first — with guardrails against 10 AI documentation failure modes | `/reverse-engineer-architecture [scope]` |
+| [validate-architecture](engineering/validate-architecture.md) | Validate existing architecture docs against source code using parallel ground truth extraction, hook attribution greps, diagram verification, and negative existence checks | `/validate-architecture [focus]` |
+| [reverse-engineer-specifications](engineering/reverse-engineer-specifications.md) | Generate Gherkin behavioral specs from a codebase by tracing routes, role checks, status flows, and data files — organized around the actual navigation structure | `/reverse-engineer-specifications [scope]` |
 
 ### Uncategorized
 | Skill | Description | Usage |
